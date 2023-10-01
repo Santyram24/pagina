@@ -1,0 +1,4 @@
+# Excluir archivos y directorios estáticos de las reglas de seguridad
+RewriteRule ^(css|js|images)/ - [L]
+
+# Resto de las reglas de seguridad aquí
